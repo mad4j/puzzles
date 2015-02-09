@@ -10,13 +10,48 @@ public class Queens5by5 {
 
 	public static void generate(int[] s, int position, int nextInt, int k, int N) {
 		if (position == k) {
-			showCombination(s);
+			if (computeAttack(s, 5) == 3) {
+				showCombination(s);
+			}
 			return;
 		}
 		for (int i = nextInt; i < N; i++) {
 			s[position] = i;
 			generate(s, position + 1, i + 1, k, N);
 		}
+	}
+	
+	
+	public static int computeAttack(int[] queens, int size) {
+		
+		int result = 0;
+		int[][] board = new int[size][size];
+		
+		for (int q=0; q<queens.length; q++) {
+			
+			int x = queens[q] / 5;
+			int y = queens[q] % 5;
+			
+			for (int i=0; i<size; i++) {
+				for (int j=0; j<size; j++) {
+					if ((x==i) || (y==j)|| ((x+y)==(i+j)) || ((x-y)==(i-j))) {
+						board[i][j] = 1;
+					}
+				}
+			}
+		}
+		
+		
+		for (int i=0; i<size; i++) {
+			for (int j=0; j<size; j++) {
+				
+				if (board[i][j] == 0) {
+					result++;
+				}
+			}
+		}
+		
+		return result;
 	}
 
 	public static void main(String[] args) {
