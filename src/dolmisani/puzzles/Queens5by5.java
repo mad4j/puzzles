@@ -1,5 +1,7 @@
 package dolmisani.puzzles;
 
+import java.util.Arrays;
+
 public class Queens5by5 {
 
 	private static void showCombination(int[] s) {
@@ -31,7 +33,6 @@ public class Queens5by5 {
 	
 	public static int computeAttack(int[] queens, int size) {
 
-		int result = 0;
 		int[] board = new int[size*size];
 				
 		for (int q: queens) {
@@ -43,12 +44,8 @@ public class Queens5by5 {
 			}
 		}
 		
-		for (int c=0; c<board.length; c++) {
-			if (board[c] == 0) {
-				result++;
-			}
-		}
-		
+		int result = (int)Arrays.stream(board).filter(c -> c == 0).count();
+				
 		return result;
 	}
 
