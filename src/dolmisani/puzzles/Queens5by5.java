@@ -1,6 +1,7 @@
 package dolmisani.puzzles;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class Queens5by5 {
 
@@ -24,31 +25,23 @@ public class Queens5by5 {
 	}
 	
 	
-	public static boolean attack(int c, int q, int size) {
+	public static boolean underAttack(int c, int q, int size) {
 		return ((q%size == c%size) || 
 				(q/size == c/size) || 
 				((q%size+q/size) == (c%size+c/size)) || 
 				((q%size-q/size) == (c%size-c/size)));
 	}
 	
-	public static int computeAttack(int[] queens, int size) {
-
-		int[] board = new int[size*size];
-				
-		for (int q: queens) {
-			for (int c=0; c<board.length; c++) {
-			
-				if  (attack(c, q, size)) {					
-					board[c] = 1;
-				}
-			}
-		}
+	
+	public static long computeAttack(int[] queens, int size) {
 		
-		int result = (int)Arrays.stream(board).filter(c -> c == 0).count();
-				
-		return result;
+		return IntStream.range(0, size*size)
+				.mapToObj(i -> Arrays.stream(queens).anyMatch(q -> underAttack(i, q, size)))
+				.filter(c -> !c)
+				.count();
 	}
 
+	
 	public static void main(String[] args) {
 		int N = 25;
 		int k = 3;
