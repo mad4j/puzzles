@@ -1,7 +1,7 @@
 # Puzzles
 solution of cute puzzles and mathematical games
 
-## Regine su una Scacchiera 5x5
+## Regine Bianche e Nere
 Inserire in una scacchiera 5x5 tre regine bianche e cinque regine nere in modo che nessuna regina sia sotto l'attacco di una regina di colore opposto.
 Esiste una sola soluzione a meno di riflessioni e rotazioni.
 
