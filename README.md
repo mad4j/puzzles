@@ -48,3 +48,15 @@ Più tardi fanno i conti e ragionano in questo modo:
 ### La Soluzione
 Il ragionamento sbagliato perché somma due volte la mancia (la prima volta nei 9€ pagati singolarmente e la seconda volta addizionandola al totale) e non tiene conto dei 3€ rimanenti di resto.
 Il ragionamento corretto sarebbe: abbiamo pagato in totale 27€ tra cena e mancia, ai quali vanno aggiunti 3€ di resto.
+
+## Tutti hanno pagato, ma la cassa è vuota
+
+### Il Problema
+Tre signori molto onesti cenano in una locanda. Il primo di loro, quando ha finito di cenare, chiede il conto. Il padrone gli risponde: *Vai alla cassa, conta quanti soldi ci sono, mettici altrettanto e prendi come resto 2 Euro.*
+Anche il secondo, quando ha finito di cenare, chiede il conto. Il padrone gli risponde:
+"Vai alla cassa, conta quanti soldi ci sono, mettici altrettanto e prendi come resto 2 Euro"
+Il terzo infine, quando chiede il conto riceve la stessa risposta:
+"Vai alla cassa, conta quanti soldi ci sono, mettici altrettanto e prendi come resto 2 Euro."
+Quando i tre se ne sono andati il padrone, tutto soddisfatto, apre la cassa e la trova vuota!
+"Il mondo è pieno di ladri! pensa, ma ha torto."
+Tenendo conto che i tre signori non hanno rubato nulla ed hanno eseguito alla lettera le disposizioni del padrone, sapresti dire quanto c'era nella cassa all'inizio?
