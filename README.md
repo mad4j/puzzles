@@ -2,8 +2,12 @@
 solution of cute puzzles and mathematical games
 
 ## Regine Bianche e Nere
+
+### Il Problema
 Inserire in una scacchiera 5x5 tre regine bianche e cinque regine nere in modo che nessuna regina sia sotto l'attacco di una regina di colore opposto.
 Esiste una sola soluzione a meno di riflessioni e rotazioni.
+
+### La Soluzione
 
 ```
 X X . . .
