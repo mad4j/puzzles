@@ -1,5 +1,5 @@
 # Puzzles
-solution of cute puzzles and mathematical games
+Raccolta personale di giochi ed enigmi matematici
 
 ## Regine Bianche e Nere
 
