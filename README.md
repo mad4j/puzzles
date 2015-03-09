@@ -60,3 +60,6 @@ Il terzo infine, quando chiede il conto riceve la stessa risposta:
 Quando i tre se ne sono andati il padrone, tutto soddisfatto, apre la cassa e la trova vuota!
 "Il mondo è pieno di ladri! pensa, ma ha torto."
 Tenendo conto che i tre signori non hanno rubato nulla ed hanno eseguito alla lettera le disposizioni del padrone, sapresti dire quanto c'era nella cassa all'inizio?
+
+### La Soluzione
+1,75€
