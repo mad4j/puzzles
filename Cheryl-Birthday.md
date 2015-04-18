@@ -13,8 +13,11 @@ Albert and Bernard have just met Cheryl. “When is your birthday?” Albert ask
 Cheryl whispered in Albert’s ear the month, and only the month, of her birthday. To Bernard, she whispered the day, and only the day. “Can you figure it out now?” she asked Albert.
 
 Albert: “I don’t know when your birthday is, but I know Bernard doesn’t know, either.”
+
 Bernard: “I didn’t know originally, but now I do.”
+
 Albert: “Well, now I know, too!”
+
 When is Cheryl’s birthday?
 
 ## Solution
