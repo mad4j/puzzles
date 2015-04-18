@@ -33,14 +33,36 @@ There no single month dates, so no more information provided
 
 *"... but I know Bernard doesn’t know, either.”*
 
-This excludes dates of May and Jun because May 19 and Jun 18 are dates with unique day values
+This excludes dates of May and Jun, otherwise Bernard may know the solution. This may be possible because May 19 and Jun 18 are dates with unique day values
 
 * <s>May 15</s>, <s>May 16</s>, <s>May 19</s>
 * <s>June 17</s>, <s>June 18</s>
 * July 14, July 16
 * August 14, August 15, August 17
 
+### From second sentece
 
+*“I didn’t know originally, but now I do.”*
+
+This excluses dates with 14t as day value, otherwise is not true that Bernard knows the solution.
+
+* <s>May 15</s>, <s>May 16</s>, <s>May 19</s>
+* <s>June 17</s>, <s>June 18</s>
+* <s>July 14</s>, July 16
+* <s>August 14</s>, August 15, August 17
+
+### From last sentence
+
+*“Well, now I know, too!”*
+
+This ecludes dates of Aug, othewise Albert is not true that Albert knows the solution.
+
+* <s>May 15</s>, <s>May 16</s>, <s>May 19</s>
+* <s>June 17</s>, <s>June 18</s>
+* <s>July 14</s>, July 16
+* <s>August 14</s>, <s>August 15</s>, <s>August 17</s>
+
+So the solution is Jul 16.
 ## References
 
 See also:
