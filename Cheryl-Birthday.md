@@ -27,3 +27,4 @@ When is Cheryl’s birthday?
 
 See also:
 * https://github.com/fj/cheryls-birthday-prolog
+* http://www.nytimes.com/2015/04/15/science/answer-to-the-singapore-math-problem-cheryl-birthday.html?_r=0
