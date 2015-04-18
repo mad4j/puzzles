@@ -67,4 +67,5 @@ So the solution is Jul 16.
 
 See also:
 * https://github.com/fj/cheryls-birthday-prolog
+* https://github.com/perng/prolog_collection/blob/master/cheryls_birthday.pl
 * http://www.nytimes.com/2015/04/15/science/answer-to-the-singapore-math-problem-cheryl-birthday.html?_r=0
