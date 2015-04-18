@@ -23,6 +23,24 @@ When is Cheryl’s birthday?
 
 ## Solution
 
+### From first sentence
+
+Albert says:
+
+*"I don’t know when your birthday is, ..."*
+
+There no single month dates, so no more information provided
+
+*"... but I know Bernard doesn’t know, either.”*
+
+This excludes dates of May and Jun because May 19 and Jun 18 are dates with unique day values
+
+* <s>May 15</s>, <s>May 16</s>, <s>May 19</s>
+* <s>June 17</s>, <s>June 18</s>
+* July 14, July 16
+* August 14, August 15, August 17
+
+
 ## References
 
 See also:
