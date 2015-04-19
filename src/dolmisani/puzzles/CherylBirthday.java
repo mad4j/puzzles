@@ -1,4 +1,4 @@
-package dolmisani.puzzles.cherylbirthday;
+package dolmisani.puzzles;
 
 import java.time.LocalDate;
 import java.time.Month;
