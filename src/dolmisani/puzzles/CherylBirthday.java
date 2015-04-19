@@ -19,7 +19,7 @@ import static java.time.Month.*;
  *  <li> May 15, May 16, May 19
  *  <li> June 17, June 18
  *  <li> July 14, July 16
- *  <lI> August 14, August 15, August 17
+ *  <li> August 14, August 15, August 17
  *  
  *  “One of these is my birthday” she said.
  *  Cheryl whispered in Albert’s ear the month, and only the month, of her birthday. 
@@ -65,7 +65,7 @@ public class CherylBirthday {
 	/**
 	 * Predicate for filtering a Stream<LocalData> for a given month.
 	 */
-	public static Predicate<LocalDate> by(Month m) {
+	private static Predicate<LocalDate> by(Month m) {
 		
 		return x -> x.getMonth().equals(m);
 	}
@@ -73,7 +73,7 @@ public class CherylBirthday {
 	/**
 	 * Predicate for filtering a Stream<LocalData> for a given day of month.
 	 */
-	public static Predicate<LocalDate> by(int d) {
+	private static Predicate<LocalDate> by(int d) {
 		
 		return x -> x.getDayOfMonth() == d;
 	}
@@ -82,7 +82,7 @@ public class CherylBirthday {
 	 * Predicate for filtering a Stream<LocalData> for elements with unique
 	 * day of month within a given set of dates.
 	 */
-	public static Predicate<LocalDate> isDayUniqueWithin(List<LocalDate> dates) {
+	private static Predicate<LocalDate> isDayUniqueWithin(List<LocalDate> dates) {
 		
 		return x -> dates.stream()
 				.filter(by(x.getDayOfMonth()))
@@ -93,7 +93,7 @@ public class CherylBirthday {
 	 * Predicate for filtering a Stream<LocalData> for elements with unique
 	 * month within a given set of dates.
 	 */
-	public static Predicate<LocalDate> isMonthUniqueWithin(List<LocalDate> dates) {
+	private static Predicate<LocalDate> isMonthUniqueWithin(List<LocalDate> dates) {
 		
 		return x -> dates.stream()
 				.filter(by(x.getMonth()))
@@ -104,7 +104,7 @@ public class CherylBirthday {
 	 * Predicate for filtering a Stream<LocalData> for elements with month
 	 * value associated with a unique day of month within a given set of dates.
 	 */
-	public static Predicate<LocalDate> isMonthWithUniqueDayWithin(List<LocalDate> dates) {
+	private static Predicate<LocalDate> isMonthWithUniqueDayWithin(List<LocalDate> dates) {
 		
 		return x -> dates.stream()
 				.filter(isDayUniqueWithin(dates))
