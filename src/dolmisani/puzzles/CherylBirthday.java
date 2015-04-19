@@ -1,6 +1,6 @@
 package dolmisani.puzzles;
 
-import java.time.LocalDate;
+import java.time.MonthDay;
 import java.time.Month;
 import java.util.Arrays;
 import java.util.List;
@@ -13,26 +13,26 @@ import static java.time.Month.*;
  * Cheryl's Birthday problem.
  * 
  * Albert and Bernard have just met Cheryl. 
- * ìWhen is your birthday?î Albert asked Cheryl. 
- * Cheryl thought for a moment and said, ìI wonít tell you, but Iíll give you some cluesî. 
+ * ‚ÄúWhen is your birthday?‚Äù Albert asked Cheryl. 
+ * Cheryl thought for a moment and said, ‚ÄúI won‚Äôt tell you, but I‚Äôll give you some clues‚Äù. 
  * She wrote down a list of ten dates:
  *  <li> May 15, May 16, May 19
  *  <li> June 17, June 18
  *  <li> July 14, July 16
  *  <li> August 14, August 15, August 17
  *  
- *  ìOne of these is my birthdayî she said.
- *  Cheryl whispered in Albertís ear the month, and only the month, of her birthday. 
+ *  ‚ÄúOne of these is my birthday‚Äù she said.
+ *  Cheryl whispered in Albert‚Äôs ear the month, and only the month, of her birthday. 
  *  To Bernard, she whispered the day, and only the day. 
- *  ìCan you figure it out now?î she asked Albert.
+ *  ‚ÄúCan you figure it out now?‚Äù she asked Albert.
  *  
- *  Albert: ìI donít know when your birthday is, but I know Bernard doesnít know, either.î
+ *  Albert: ‚ÄúI don‚Äôt know when your birthday is, but I know Bernard doesn‚Äôt know, either.‚Äù
  *  
- *  Bernard: ìI didnít know originally, but now I do.î
+ *  Bernard: ‚ÄúI didn‚Äôt know originally, but now I do.‚Äù
  *  
- *  Albert: ìWell, now I know, too!î
+ *  Albert: ‚ÄúWell, now I know, too!‚Äù
  *  
- *  When is Cherylís birthday?
+ *  When is Cheryl‚Äôs birthday?
  *  
  *  See also:
  *  <li> https://github.com/fj/cheryls-birthday-prolog
@@ -41,113 +41,72 @@ import static java.time.Month.*;
  *
  */
 public class CherylBirthday {
+	
+	private static Predicate<MonthDay> byMonth(Month month) {
+		return x -> x.getMonth().equals(month);
+	}
 
-	/**
-	 * list of Cheryl's candidate dates
-	 */
-	private static final List<LocalDate> DATES = Arrays.asList(
-			d(MAY, 15), d(MAY, 16), d(MAY, 19),
-			d(JUNE, 17), d(JUNE, 18),
-			d(JULY, 14), d(JULY, 16),
-			d(AUGUST, 14), d(AUGUST, 15), d(AUGUST, 17)
-	);
-	
-	
-	/**
-	 * Convenience method for easily building a new LocalData object.
-	 * In order to simplify code, using 1990 as default year.
-	 */
-	private static LocalDate d(Month m, int d) {
-		
-		return LocalDate.of(1990, m, d);
+	private static Predicate<MonthDay> byDay(int day) {
+		return x -> x.getDayOfMonth() == day;
 	}
 	
-	/**
-	 * Predicate for filtering a Stream<LocalData> for a given month.
-	 */
-	private static Predicate<LocalDate> by(Month m) {
-		
-		return x -> x.getMonth().equals(m);
-	}
-	
-	/**
-	 * Predicate for filtering a Stream<LocalData> for a given day of month.
-	 */
-	private static Predicate<LocalDate> by(int d) {
-		
-		return x -> x.getDayOfMonth() == d;
-	}
-	
-	/**
-	 * Predicate for filtering a Stream<LocalData> for elements with unique
-	 * day of month within a given set of dates.
-	 */
-	private static Predicate<LocalDate> isDayUniqueWithin(List<LocalDate> dates) {
-		
+	private static Predicate<MonthDay> isDayUniqueWithin(List<MonthDay> dates) {
 		return x -> dates.stream()
-				.filter(by(x.getDayOfMonth()))
+				.filter(byDay(x.getDayOfMonth()))
 				.count() == 1;
 	}
 	
-	/**
-	 * Predicate for filtering a Stream<LocalData> for elements with unique
-	 * month within a given set of dates.
-	 */
-	private static Predicate<LocalDate> isMonthUniqueWithin(List<LocalDate> dates) {
-		
+	private static Predicate<MonthDay> isMonthUniqueWithin(List<MonthDay> dates) {
 		return x -> dates.stream()
-				.filter(by(x.getMonth()))
+				.filter(byMonth(x.getMonth()))
 				.count() == 1;
 	}
 	
-	/**
-	 * Predicate for filtering a Stream<LocalData> for elements with month
-	 * value associated with a unique day of month within a given set of dates.
-	 */
-	private static Predicate<LocalDate> isMonthWithUniqueDayWithin(List<LocalDate> dates) {
-		
+	private static Predicate<MonthDay> isMonthWithUniqueDayWithin(List<MonthDay> dates) {
 		return x -> dates.stream()
 				.filter(isDayUniqueWithin(dates))
-				.filter(by(x.getMonth()))
+				.filter(byMonth(x.getMonth()))
 				.count() == 1;
 	}
 	
-	
-	/**
-	 * Solve the Cheryl's Birthday problem.
-	 */
 	public static void main(String[] args) {
-		
-		//filter candidate dates using first sentence
-		List<LocalDate> result1 = DATES.stream()
-				//Albert doesn't know the solution
-				.filter(isMonthUniqueWithin(DATES).negate())
-				//Bernard doesn't know the solution, too
-				.filter(isMonthWithUniqueDayWithin(DATES).negate())
-				.collect(Collectors.toList());
-		
-		//filter candidate dates using second sentence
-		List<LocalDate> result2 = result1.stream()
-				//Bernard now knows the solution
-				.filter(isDayUniqueWithin(result1))
-				.collect(Collectors.toList());
-		
-		//filter candidate dates using last sentence
-		List<LocalDate> result3 = result2.stream()
-				//Albert now knows the solution, too
-				.filter(isMonthUniqueWithin(result2))
-				.collect(Collectors.toList());
+		List<MonthDay> possibleBirthdays = Arrays.asList(
+			MonthDay(MAY, 15), MonthDay(MAY, 16), MonthDay(MAY, 19),
+			MonthDay(JUNE, 17), MonthDay(JUNE, 18),
+			MonthDay(JULY, 14), MonthDay(JULY, 16),
+			MonthDay(AUGUST, 14), MonthDay(AUGUST, 15), MonthDay(AUGUST, 17)
+		);
 		
 		System.out.println("Starting candidate dates:");
-		System.out.println(DATES);
+		System.out.println(possibleBirthdays);
+		
+		//filter candidate dates using first sentence
+		possibleBirthdays = possibleBirthdays.stream()
+				//Albert doesn't know the solution
+				.filter(isMonthUniqueWithin(possibleBirthdays).negate())
+				//Bernard doesn't know the solution, either
+				.filter(isMonthWithUniqueDayWithin(possibleBirthdays).negate())
+				.collect(Collectors.toList());
 		
 		System.out.println("\nCandidate dates after first sentence:");
-		System.out.println(result1);
+		System.out.println(possibleBirthdays);
 		
+		//filter candidate dates using second sentence
+		possibleBirthdays = possibleBirthdays.stream()
+				//Bernard now knows the solution
+				.filter(isDayUniqueWithin(possibleBirthdays))
+				.collect(Collectors.toList());
+				
 		System.out.println("\nCandidate dates after second sentence:");
-		System.out.println(result2);
+		System.out.println(possibleBirthdays);
+		
+		//filter candidate dates using last sentence
+		possibleBirthdays = possibleBirthdays.stream()
+				//Albert now knows the solution, too
+				.filter(isMonthUniqueWithin(possibleBirthdays))
+				.collect(Collectors.toList());
 		
 		System.out.println("\nCandidate dates after last sentence:");
-		System.out.println(result3);
+		System.out.println(possibleBirthdays);
 	}	
 }
