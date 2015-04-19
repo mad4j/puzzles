@@ -141,13 +141,13 @@ public class CherylBirthday {
 		System.out.println("Starting candidate dates:");
 		System.out.println(DATES);
 		
-		System.out.println("\nCadidate dates after first sentence:");
+		System.out.println("\nCandidate dates after first sentence:");
 		System.out.println(result1);
 		
-		System.out.println("\nCadidate dates after second sentence:");
+		System.out.println("\nCandidate dates after second sentence:");
 		System.out.println(result2);
 		
-		System.out.println("\nCadidate dates after last sentence:");
+		System.out.println("\nCandidate dates after last sentence:");
 		System.out.println(result3);
 	}	
 }
