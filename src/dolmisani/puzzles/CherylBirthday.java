@@ -13,26 +13,26 @@ import static java.time.Month.*;
  * Cheryl's Birthday problem.
  * 
  * Albert and Bernard have just met Cheryl. 
- * “When is your birthday?” Albert asked Cheryl. 
- * Cheryl thought for a moment and said, “I won’t tell you, but I’ll give you some clues”. 
+ * â€œWhen is your birthday?â€� Albert asked Cheryl. 
+ * Cheryl thought for a moment and said, â€œI wonâ€™t tell you, but Iâ€™ll give you some cluesâ€�. 
  * She wrote down a list of ten dates:
  *  <li> May 15, May 16, May 19
  *  <li> June 17, June 18
  *  <li> July 14, July 16
  *  <li> August 14, August 15, August 17
  *  
- *  “One of these is my birthday” she said.
- *  Cheryl whispered in Albert’s ear the month, and only the month, of her birthday. 
+ *  â€œOne of these is my birthdayâ€� she said.
+ *  Cheryl whispered in Albertâ€™s ear the month, and only the month, of her birthday. 
  *  To Bernard, she whispered the day, and only the day. 
- *  “Can you figure it out now?” she asked Albert.
+ *  â€œCan you figure it out now?â€� she asked Albert.
  *  
- *  Albert: “I don’t know when your birthday is, but I know Bernard doesn’t know, either.”
+ *  Albert: â€œI donâ€™t know when your birthday is, but I know Bernard doesnâ€™t know, either.â€�
  *  
- *  Bernard: “I didn’t know originally, but now I do.”
+ *  Bernard: â€œI didnâ€™t know originally, but now I do.â€�
  *  
- *  Albert: “Well, now I know, too!”
+ *  Albert: â€œWell, now I know, too!â€�
  *  
- *  When is Cheryl’s birthday?
+ *  When is Cherylâ€™s birthday?
  *  
  *  See also:
  *  <li> https://github.com/fj/cheryls-birthday-prolog
@@ -71,10 +71,10 @@ public class CherylBirthday {
 	
 	public static void main(String[] args) {
 		List<MonthDay> possibleBirthdays = Arrays.asList(
-			MonthDay(MAY, 15), MonthDay(MAY, 16), MonthDay(MAY, 19),
-			MonthDay(JUNE, 17), MonthDay(JUNE, 18),
-			MonthDay(JULY, 14), MonthDay(JULY, 16),
-			MonthDay(AUGUST, 14), MonthDay(AUGUST, 15), MonthDay(AUGUST, 17)
+			MonthDay.of(MAY, 15), MonthDay.of(MAY, 16), MonthDay.of(MAY, 19),
+			MonthDay.of(JUNE, 17), MonthDay.of(JUNE, 18),
+			MonthDay.of(JULY, 14), MonthDay.of(JULY, 16),
+			MonthDay.of(AUGUST, 14), MonthDay.of(AUGUST, 15), MonthDay.of(AUGUST, 17)
 		);
 		
 		System.out.println("Starting candidate dates:");
