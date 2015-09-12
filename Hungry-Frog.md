@@ -3,8 +3,8 @@
 Resolving the Hungry Frog puzzle using Warnsdorff heuristic.
 
 The Hungry Frog puzzle is a problem like the Knight Tour with the following rules:
-* Frog needs to jump on each chercker board square one (and one only) time
-* Chercker board size is 10x10 squares
+* Frog needs to jump on each chessboard square one (and one only) time
+* Chessboard size is 10x10 squares
 * Frog starts from any square
 * Frog jumps 3 squares horizontally and vertically
 * Frog jumps 2 squares diagonally
