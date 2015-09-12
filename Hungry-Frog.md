@@ -1,6 +1,6 @@
 # Hungry Frog
 
-Resolve Knight Tour like problems using Warnsdorff heuristic.
+Resolving the Hungry Frog puzzle using Warnsdorff heuristic.
 
 The Hungry Frog puzzle is a problem like the Knight Tour with the following rules:
 * Frog needs to jump on each chercker board square one (and one only) time
