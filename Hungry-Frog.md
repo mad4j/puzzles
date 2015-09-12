@@ -12,6 +12,7 @@ The Hungry Frog puzzle is a problem like the Knight Tour with the following rule
 [Warnsdorff heuristic](https://en.wikipedia.org/wiki/Knight%27s_tour) allows to resolve this problem in linear time
 
 ## Solution
+One of the possible solutions
 
 ```
    1  75  68   2 100  81  23  99  82  22
