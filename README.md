@@ -1,6 +1,9 @@
 # Puzzles
 Raccolta personale di giochi ed enigmi matematici
 
+* [La Rana Affamata](Hungry-Frog.md)
+* [Il Compleanno di Cheryl](Cheryl-Birthday.md)
+
 ## Regine Bianche e Nere
 
 ### Il Problema
