@@ -4,6 +4,17 @@ Raccolta personale di giochi ed enigmi matematici
 * [La Rana Affamata](Hungry-Frog.md)
 * [Il Compleanno di Cheryl](Cheryl-Birthday.md)
 
+## L'agente segreto
+
+### Il problema
+La missione del nostro agente è quella di inflitarsi in un centro di ricerca altamente sorvegliato.
+Per superare il controllo all'ingresso è necessario scoprire la regola che lega parola e contro-parola d'ordine.
+L'agente si nasconde nei pressi dell'ingresso. Vede arrivare il primo soldato il quale alla parola "12" risponde correttamente con "6". Al secondo soldato viene chiesto di rispondere a "10" viene risposto "5". Al terzo soldato viene chiesto "8" a cui risponde con "4".
+A questo punto l'agente si presenta alla porta e alla domanda "4" risponde "2" facendo scattare l'allarme.
+Dove ha sbagliato?
+
+### La soluzione
+
 ## Regine Bianche e Nere
 
 ### Il Problema
