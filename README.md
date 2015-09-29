@@ -9,8 +9,9 @@ Raccolta personale di giochi ed enigmi matematici
 ### Il problema
 Un agente segreto deve inflitarsi in un centro di ricerca altamente sorvegliato.
 Per superare il controllo all'ingresso è necessario conoscere la parola d'ordine.
-L'agente si nasconde nei pressi dell'ingresso. Vede arrivare un agente avversario che bussa, gli viene detto "12", risponde correttamente con "6" e viene fatto entrare. All'arrivo del secondo agente viene chiesto "10", viene risposto correttamente con "5". Al terzo ingresso viene chiesto "8" a cui risponde con "4".
+L'agente decide di nascondersi nei pressi del cancello di accesso. Vede arrivare un agente avversario al quale viene detto "12", risponde correttamente con "6" e viene fatto entrare. All'arrivo del secondo agente viene chiesto "10", viene risposto correttamente con "5". Al terzo ingresso viene chiesto "8" a cui risponde con "4".
 A questo punto l'agente decide di presentarsi alla porta e alla parola "4" risponde con "2" facendo scattare inesorabilmente l'allarme.
+
 Dove ha sbagliato?
 
 ### La soluzione
