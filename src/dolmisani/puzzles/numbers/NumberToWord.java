@@ -74,12 +74,11 @@ public class NumberToWord {
 		
 		for (int i=1; i<=MAX_VALUE; i++) {
 			
-			int l = NumberToWord
-						.convert(i)
-						.length();
+			String s = NumberToWord.convert(i);
+			int l = s.length();
 			
 			if (i % l == 0) {
-				System.out.format("| %3d | %2d |\n", i, i/l);
+				System.out.format("| %3d | %-16s | %2d |\n", i, s, i/l);
 			}
 		}
 		
