@@ -16,7 +16,37 @@ A questo punto l'agente decide di presentarsi all'ingresso, ma alla parola d'ord
 Dove ha sbagliato?
 
 ### La soluzione
-La risposta corretta era "7". Infatti la parola "quattro" ha sette lettere, la parola "sei" ne ha tre, "otto" ne ha quattro...
+La risposta attesa era "7". 
+Infatti la parola "quattro" ha sette lettere, la parola "sei" ne ha tre, "otto" ne ha quattro...
+
+### Gli approfondimenti
+Anche "24" è scritto (ovviamente, in Italiano) con un numero di lettere uguale alla metà del suo valore.
+Metre "3", invece, è *invariante*: il suo valore è uguale al numero delle lettere con le quali viene scritto.
+
+Quali sono gli altri numeri che hanno proprietà simili?
+Nella seguente tabella ne sono elencati i primi cento numeri per i quali il loro valore è divisibile per il 
+numero delle lettere.
+
+|   N |         L        |  F |
+|-----|------------------|---:|
+|   3 | tre              |  1 |
+|   6 | sei              |  2 |
+|   8 | otto             |  2 |
+|  10 | dieci            |  2 |
+|  12 | dodici           |  2 |
+|  20 | venti            |  4 |
+|  21 | ventuno          |  3 |
+|  24 | ventiquattro     |  2 |
+|  30 | trenta           |  5 |
+|  36 | trentasei        |  4 |
+|  40 | quaranta         |  5 |
+|  66 | sessantasei      |  6 |
+|  81 | ottantuno        |  9 |
+|  84 | ottantaquattro   |  6 |
+|  99 | novantanove      |  9 |
+| 100 | cento            | 20 |
+
+La tabella è stata calcolata usando questo [Codice in Java](https://github.com/mad4j/puzzles/blob/master/src/dolmisani/puzzles/numbers/NumberToWord.java)
 
 ## Regine Bianche e Nere
 
