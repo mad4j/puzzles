@@ -69,54 +69,19 @@ public class NumberToWord {
 	
 	public static void main(String[] args) {
 		
-
-		int MAX_VALUE = 1000000;
+		int MAX_VALUE = 100;
 		
-		System.out.println(NumberToWord.maxWordLength(1000000));
 		
-		for (int i=0; i<=MAX_VALUE; i++) {
+		for (int i=1; i<=MAX_VALUE; i++) {
 			
-			String w = NumberToWord.convert(i);
+			int l = NumberToWord
+						.convert(i)
+						.length();
 			
-			if ((w.length() == i)) {
-				System.out.format("%d , '%s'\n", i, w);
+			if (i % l == 0) {
+				System.out.format("| %3d | %2d |\n", i, i/l);
 			}
 		}
-		
-		System.out.println("---");
-		
-		for (int i=0; i<=MAX_VALUE; i++) {
-			
-			String w = NumberToWord.convert(i);
-			
-			if ((i%2 == 0) && (w.length() == i/2)) {
-				System.out.format("%d , '%s'\n", i, w);
-			}
-		}
-		
-		System.out.println("---");
-		
-		for (int i=0; i<=MAX_VALUE; i++) {
-			
-			String w = NumberToWord.convert(i);
-			
-			if ((i%3 == 0) && (w.length() == i/3)) {
-				System.out.format("%d , '%s'\n", i, w);
-			}
-		}
-		
-		System.out.println("---");
-		
-		for (int i=0; i<=MAX_VALUE; i++) {
-			
-			String w = NumberToWord.convert(i);
-			
-			if ((i%4 == 0) && (w.length() == i/4)) {
-				System.out.format("%d , '%s'\n", i, w);
-			}
-		}
-		
-		
 		
 	}
 
