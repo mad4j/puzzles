@@ -48,6 +48,16 @@ numero delle proprie lettere.
 
 La tabella è stata calcolata usando questo [Codice in Java](https://github.com/mad4j/puzzles/blob/master/src/dolmisani/puzzles/numbers/NumberToWord.java)
 
+
+## La Nifea
+
+## Il problema
+Una nifea cade in un lago. Ogni giorno raddoppia la sua dimensione e in 100 giorni tutta la superficie del lago.
+Quanti giorni ha impiegato per coprirne la metà?
+
+## La soluzione
+Ha impiegato 99 giorni.
+
 ## Regine Bianche e Nere
 
 ### Il Problema
