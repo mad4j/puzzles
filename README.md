@@ -52,7 +52,7 @@ La tabella è stata calcolata usando questo [Codice in Java](https://github.com/
 ## La Nifea
 
 ## Il problema
-Una nifea cade in un lago. Ogni giorno raddoppia la sua dimensione e in 100 giorni tutta la superficie del lago.
+Una nifea cade in un lago. Ogni giorno raddoppia la sua dimensione e in 100 giorni copre tutta la superficie del lago.
 Quanti giorni ha impiegato per coprirne la metà?
 
 ## La soluzione
