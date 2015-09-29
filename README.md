@@ -16,7 +16,7 @@ A questo punto l'agente decide di presentarsi all'ingresso, ma alla parola d'ord
 Dove ha sbagliato?
 
 ### La soluzione
-La risposta corretta sarebbe stata "7". Infatti la parola "quattro" ha sette lettere, la parola "sei" ne ha tre, "otto" ne ha quattro...
+La risposta corretta era "7". Infatti la parola "quattro" ha sette lettere, la parola "sei" ne ha tre, "otto" ne ha quattro...
 
 ## Regine Bianche e Nere
 
