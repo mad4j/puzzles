@@ -25,7 +25,7 @@ Metre "3", invece, è *invariante*: il suo valore è uguale al numero delle lett
 
 Quali sono gli altri numeri che hanno proprietà simili?
 Nella seguente tabella ne sono elencati i primi cento numeri per i quali il loro valore è divisibile per il 
-numero delle lettere.
+numero delle proprie lettere.
 
 |   N |         L        |  F |
 |-----|------------------|---:|
