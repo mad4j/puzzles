@@ -7,9 +7,8 @@ Raccolta personale di giochi ed enigmi matematici
 ## La parola d'ordine
 
 ### Il problema
-Un agente segreto deve inflitarsi in un centro di ricerca altamente sorvegliato.
-L'agente decide di nascondersi nei pressi del cancello di ingresso. All'arrivo del primo visitatore, le guardie intimano di rispondere alla parola d'ordine "12". Il visitatore risponde con "6" e gli viene permesso di entrare. Al secondo visitatore viene chiesto "10" che risponde correttamente con "5". Al terzo ingresso viene chiesto "8" e questa volta la risposta è "4".
-A questo punto l'agente decide di presentarsi all'ingresso e alla parola "4" risponde con "2" facendo scattare inesorabilmente l'allarme.
+Un agente segreto deve inflitarsi in un centro di ricerca altamente sorvegliato. Per capire come fare ad entrare, l'agente decide di nascondersi nei pressi del cancello di ingresso. All'arrivo del primo visitatore, le guardie intimano di rispondere alla parola d'ordine "12". Il visitatore risponde con "6" e gli viene permesso di entrare. Al secondo visitatore viene chiesto "10", il visitatore risponde correttamente con "5". Al terzo visitatore viene chiesto "8" e questa volta la risposta è "4". All'ingresso successivo la richiesta è "6" con risposta "3".
+A questo punto l'agente decide di presentarsi all'ingresso. Ma alla parola d'ordine "4" risponde con "2"... facendo inesorabilmente scatrare l'allarme.
 
 Dove ha sbagliato?
 
