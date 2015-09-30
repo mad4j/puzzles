@@ -49,10 +49,11 @@ numero delle proprie lettere.
 La tabella è stata calcolata usando questo [Codice in Java](https://github.com/mad4j/puzzles/blob/master/src/dolmisani/puzzles/numbers/NumberToWord.java)
 
 ### Riferimenti
-
+````
 Insalate di matematica. Nuovi buffet per stimolare l'appetito numerico, Volume 2
 Paolo Gangemi
 Alpha Test, 2007 - 160 pagine
+````
 
 ## La Nifea
 
