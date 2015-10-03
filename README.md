@@ -4,6 +4,77 @@ Raccolta personale di giochi ed enigmi matematici
 * [La Rana Affamata](Hungry-Frog.md)
 * [Il Compleanno di Cheryl](Cheryl-Birthday.md)
 
+## La parola d'ordine
+
+### Il problema
+Un agente segreto deve inflitarsi in un centro di ricerca altamente sorvegliato. Per capire come fare ad entrare, l'agente decide di nascondersi nei pressi del cancello di ingresso. 
+
+All'arrivo del primo visitatore, le guardie intimano di rispondere alla parola d'ordine "12". Il visitatore risponde con "6" e gli viene permesso di entrare. Al secondo visitatore viene chiesto di rispondere alla parola d'ordine "10". Il visitatore risponde correttamente con "5". Al terzo visitatore viene chiesto "8" e la risposta è "4". Al visitatore successivo la richiesta è "6" con risposta "3".
+
+A questo punto l'agente decide di presentarsi all'ingresso, ma alla parola d'ordine "4" risponde con "2"... facendo inesorabilmente scattare l'allarme.
+
+Dove ha sbagliato?
+
+### La soluzione
+La risposta attesa era "7". 
+Infatti la parola "quattro" ha sette lettere, la parola "sei" ne ha tre, "otto" ne ha quattro...
+
+### Gli approfondimenti
+Anche "24" è scritto (ovviamente, in Italiano) con un numero di lettere uguale alla metà del suo valore.
+Metre "3", invece, è *invariante*: il suo valore è uguale al numero delle lettere con le quali viene scritto.
+
+Quali sono gli altri numeri che hanno proprietà simili?
+Nella seguente tabella ne sono elencati i primi cento numeri per i quali il loro valore è divisibile per il 
+numero delle proprie lettere.
+
+|   N |         W        |  L  |    |
+|-----|------------------|----:|---:|
+|   3 | tre              |   3 |  1 |
+|   6 | sei              |   3 |  2 |
+|   8 | otto             |   4 |  2 |
+|  10 | dieci            |   5 |  2 |
+|  12 | dodici           |   6 |  2 |
+|  20 | venti            |   5 |  4 |
+|  21 | ventuno          |   7 |  3 |
+|  24 | ventiquattro     |  12 |  2 |
+|  30 | trenta           |   6 |  5 |
+|  36 | trentasei        |   9 |  4 |
+|  40 | quaranta         |   8 |  5 |
+|  66 | sessantasei      |  11 |  6 |
+|  81 | ottantuno        |   9 |  9 |
+|  84 | ottantaquattro   |  14 |  6 |
+|  99 | novantanove      |  11 |  9 |
+| 100 | cento            |   5 | 20 |
+
+
+La tabella è stata calcolata usando questo [Codice in Java](https://github.com/mad4j/puzzles/blob/master/src/dolmisani/puzzles/numbers/NumberToWord.java)
+
+### Riferimenti
+````
+Insalate di matematica. Nuovi buffet per stimolare l'appetito numerico, Volume 2
+Paolo Gangemi
+Alpha Test, 2007 - 160 pagine
+````
+
+## La Nifea
+
+### Il problema
+Una nifea cade in un lago. Ogni giorno raddoppia la sua dimensione e in 20 giorni copre tutta la superficie del lago.
+Quanti giorni ha impiegato per coprirne la metà?
+
+### La soluzione
+Ha impiegato 19 giorni.
+
+
+## Gli Scacchi Impossibili
+## Il problema
+Stai partecipando a un torneo di scacchi e devi condurre due partite in contemporanea contro due Gran Maestri.
+Per ogni partita vinta si guadagnano due punti, per ogni partita pareggiata un punto.
+Quale strategia adattare per vincere almeno un punto?
+## La soluzione
+E' necessario giocare con i bianchi in una partita e con i neri nell'altra. A questo punto è necessario ripetere le mosse dell'avversario sull'altra scacchiera in modo da far giocare i due Gran Maestri tra di loro.
+
+
 ## Regine Bianche e Nere
 
 ### Il Problema
