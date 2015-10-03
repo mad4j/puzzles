@@ -64,8 +64,14 @@ Quanti giorni ha impiegato per coprirne la metà?
 ### La soluzione
 Ha impiegato 19 giorni.
 
-## Gli Scacchi Impossibili
 
+## Gli Scacchi Impossibili
+## Il problema
+Stai partecipando a un torneo di scacchi e devi condurre due partite in contemporanea contro due Gran Maestri.
+Per ogni partita vinta si guadagnano due punti, per ogni partita pareggiata un punto.
+Quale strategia adattare per vincere almeno un punto?
+## La soluzione
+E' necessario giocare con i bianchi in una partita e con i neri nell'altra. A questo punto è necessario ripetere le mosse dell'avversario sull'altra scacchiera in modo da far giocare i due Gran Maestri tra di loro.
 
 
 ## Regine Bianche e Nere
