@@ -23,11 +23,11 @@ Infatti la parola "quattro" ha sette lettere, la parola "sei" ne ha tre, "otto" 
 Anche "24" è scritto (ovviamente, in Italiano) con un numero di lettere uguale alla metà del suo valore.
 Metre "3", invece, è *invariante*: il suo valore è uguale al numero delle lettere con le quali viene scritto.
 
-Quali sono gli altri numeri che hanno proprietà simili?
-Nella seguente tabella ne sono elencati i primi cento numeri per i quali il loro valore è divisibile per il 
+Esistono altri numeri con proprietà simili?
+Nella seguente tabella ne sono elencati i numeri (tra iprimi cento) per i quali il loro valore è divisibile per il 
 numero delle proprie lettere.
 
-|   N |         W        |  L  |    |
+|   N |         W        |  L  |  F |
 |-----|------------------|----:|---:|
 |   3 | tre              |   3 |  1 |
 |   6 | sei              |   3 |  2 |
@@ -70,7 +70,8 @@ Ha impiegato 19 giorni.
 ## Il problema
 Stai partecipando a un torneo di scacchi e devi condurre due partite in contemporanea contro due Gran Maestri.
 Per ogni partita vinta si guadagnano due punti, per ogni partita pareggiata un punto.
-Quale strategia adattare per vincere almeno un punto?
+Quale strategia adattare per vincere sicuramente almeno un punto?
+
 ## La soluzione
 E' necessario giocare con i bianchi in una partita e con i neri nell'altra. A questo punto è necessario ripetere le mosse dell'avversario sull'altra scacchiera in modo da far giocare i due Gran Maestri tra di loro.
 
