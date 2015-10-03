@@ -58,14 +58,15 @@ Alpha Test, 2007 - 160 pagine
 ## La Nifea
 
 ### Il problema
-Una nifea cade in un lago. Ogni giorno raddoppia la sua dimensione e in 100 giorni copre tutta la superficie del lago.
+Una nifea cade in un lago. Ogni giorno raddoppia la sua dimensione e in 20 giorni copre tutta la superficie del lago.
 Quanti giorni ha impiegato per coprirne la metà?
 
 ### La soluzione
-Ha impiegato 99 giorni.
+Ha impiegato 19 giorni.
 
-### Gli approfondimenti 
-È interessante verificare come il limite di 100 giorni sia funzionale al meccanismo di logica, ma che renda il problema fisicamente impossibile. Sarebbe interessante verificare la dimensione finale è la velocità lineare di crescita nell'ultimo giorno.
+## Gli Scacchi Impossibili
+
+
 
 ## Regine Bianche e Nere
 
