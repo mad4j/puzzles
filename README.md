@@ -27,24 +27,25 @@ Quali sono gli altri numeri che hanno proprietà simili?
 Nella seguente tabella ne sono elencati i primi cento numeri per i quali il loro valore è divisibile per il 
 numero delle proprie lettere.
 
-|   N |         L        |  F |
-|-----|------------------|---:|
-|   3 | tre              |  1 |
-|   6 | sei              |  2 |
-|   8 | otto             |  2 |
-|  10 | dieci            |  2 |
-|  12 | dodici           |  2 |
-|  20 | venti            |  4 |
-|  21 | ventuno          |  3 |
-|  24 | ventiquattro     |  2 |
-|  30 | trenta           |  5 |
-|  36 | trentasei        |  4 |
-|  40 | quaranta         |  5 |
-|  66 | sessantasei      |  6 |
-|  81 | ottantuno        |  9 |
-|  84 | ottantaquattro   |  6 |
-|  99 | novantanove      |  9 |
-| 100 | cento            | 20 |
+|   N |         W        |  L  |    |
+|-----|------------------|----:|---:|
+|   3 | tre              |   3 |  1 |
+|   6 | sei              |   3 |  2 |
+|   8 | otto             |   4 |  2 |
+|  10 | dieci            |   5 |  2 |
+|  12 | dodici           |   6 |  2 |
+|  20 | venti            |   5 |  4 |
+|  21 | ventuno          |   7 |  3 |
+|  24 | ventiquattro     |  12 |  2 |
+|  30 | trenta           |   6 |  5 |
+|  36 | trentasei        |   9 |  4 |
+|  40 | quaranta         |   8 |  5 |
+|  66 | sessantasei      |  11 |  6 |
+|  81 | ottantuno        |   9 |  9 |
+|  84 | ottantaquattro   |  14 |  6 |
+|  99 | novantanove      |  11 |  9 |
+| 100 | cento            |   5 | 20 |
+
 
 La tabella è stata calcolata usando questo [Codice in Java](https://github.com/mad4j/puzzles/blob/master/src/dolmisani/puzzles/numbers/NumberToWord.java)
 
