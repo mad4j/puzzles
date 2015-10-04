@@ -75,6 +75,26 @@ Stai partecipando a un torneo di scacchi e devi condurre due partite in contempo
 Per ogni partita vinta si guadagnano due punti, per ogni partita pareggiata un punto.
 Quale strategia adattare per vincere sicuramente almeno un punto?
 
+Che frustrazione! Alice è stata, nuovamente, rinchiusa nella Torre Deprimente. La Regina di Cuori l'ha scoperta, nuovamente, a dipingere murales irriverenti sulle mura della reggia. La condanna è il taglio della testa a meno che Alice non riesca a suparare uns Sfida Impossibile. Questa volta la sfida sarà quella di partecipare al Torneo degli Scacchi Impossibili. Alice dovrà affrontare contemporaneamente, in due partite distite, due Gran Maestri di Scacchi Impossibili. Vengono assegnati due punti per ogni partita vinta e un punto per ogni partita pareggiata. Alice salverà la testa se riuscirà a guadagnare almeno un punto.
+Gli Scacchi Impossibili sono come gli scacchi tradizionali, ma con le seguenti eccezioni:
+* si gioca con pezzi Neri e Rossi
+* i pezzi Rossi muovono per primi
+* la schacchiera è 8 per 13 caselle, i pezzi si dispongono per il lato corto
+* i pezzi neri sono composti da:
+* La Regina Seducente: si muove solo per mangiare, può mangiare qualsiasi pezzo "maschile" che possa raggiungere senza dover saltare
+* Il Re Rospo: si sposta saltando di un casella in tutte le direzioni, nessuno si azzarda a mangiarlo, ma qualche Regina può tentare di baciarlo
+* Il Vescovo
+* 
+
+La Regina Incantevole
+Il Principe Azzurro
+
+Il giorno successivo, Alice viene scortata nella stanza del torneo. Il pubblico è curiosio di sapere come andrà a finire. Vengono estratti a sorte i pezzi. Alice dovrà giocare con i pezzi neri con XXX e con i pezzi rossi contro YYY.
+La partita ha inizio. Alice è titubante sta per muovere uno dei suoi Pedoni Rossi, quando con la coda dell'occhio vede YYY che senza neanche pensarci troppo fa avanzare con un gran balzo il suo ZZZ Rosso.
+Alice sorride maliziosa. Decide di cambiare completamente strategia perché ormai ha capito che sicuramente riuscirà a salvare la testa.
+
+Cosa ha capito Alice?
+
 ## La soluzione
 E' necessario giocare con i bianchi in una partita e con i neri nell'altra. A questo punto è necessario ripetere le mosse dell'avversario sull'altra scacchiera in modo da far giocare i due Gran Maestri tra di loro.
 
