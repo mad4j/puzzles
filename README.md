@@ -65,6 +65,9 @@ Quanti giorni ha impiegato per coprirne la metà?
 ### La soluzione
 Ha impiegato 19 giorni.
 
+### Gli approfondimenti
+E' interessante osservare che con una nifea in origine di 3.5 cm di diametro, in 20 giorni arriverebbe a coprire una superficie di 100 Km2.
+
 
 ## Gli Scacchi Impossibili
 ## Il problema
