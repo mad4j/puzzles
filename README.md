@@ -4,6 +4,20 @@ Raccolta personale di giochi ed enigmi matematici
 * [La Rana Affamata](Hungry-Frog.md)
 * [Il Compleanno di Cheryl](Cheryl-Birthday.md)
 
+## Indovinello di Pasquetta
+
+### Il problema
+Andrea sta guardando Barbara, ma Barbara sta guardando Carlo.
+Andrea è sposato, mentre Carlo non lo è.
+Sapete dire se c’è una persona sposata che sta guardando una persona non sposata?
+
+Le risposte possibili sono: Sì, No, No si può dire.
+
+### La soluzione
+La risposta è *Sì*.
+Se Barbara fosse sposata, allora starebbe guardando Carlo che non lo è.
+Altrimenti, Andrea starebbe guardando Barbara che non lo è.
+
 ## La parola d'ordine
 
 ### Il problema
