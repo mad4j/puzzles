@@ -15,8 +15,10 @@ Le risposte possibili sono: Sì, No, No si può dire.
 
 ### La soluzione
 La risposta è *Sì*.
-Se Barbara fosse sposata, allora starebbe guardando Carlo che non lo è.
-Altrimenti, Andrea starebbe guardando Barbara che non lo è.
+I casi possono essere due: Barbara è sposata o non lo è.
+Nel primo caso, allora Barbara è sposata e sta guardando Carlo che non lo è.
+Nel secondo, Andrea è sposato e sta guardando Barbara che non lo è.
+In entrambi i casi la risposta è Sì.
 
 ## La parola d'ordine
 
