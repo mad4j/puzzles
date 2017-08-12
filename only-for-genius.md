@@ -19,8 +19,8 @@ Allora rendiamo il tutto più interessante aggiungendo un nuovo vincolo:
 
 > :apple: + :lemon: = 9.848
 >
-> :apple: * :lemon: = 1.234.567
+> :apple: x :lemon: = 1.234.567
 >
-> dove banana ed arancio sono valori interi.
+> dove :apple: e :lemon: sono valori interi.
 
 Riuscite a trovare una soluzione?
