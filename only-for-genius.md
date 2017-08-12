@@ -1,21 +1,27 @@
 # Only for Genius
-Il 95% di voi non sarà capace di dare una risposta al seguente problema.
+
+*Il 95% di voi non sarà capace di dare una risposta al seguente problema.*
+
+Trovo molto spesso sul web (a dire il vero su Facebook, il più delle volte) problemi pseudo-matematici che cercano di attire click proponendo quesiti semplici o che, al più, nascondono qualche piccola ambiguità di notazione.
+Mi chiedevo se sarei riuscito a scrivere un piccolo problema, di facile comprensione, ma che pochi sarebbero riuciti a risolvere.
+Vediamo cosa sono riscito a fare.
 
 ## Riscaldamento
 
-Incominciamo con una cosa semplice:
+Incominciamo con una cosa semplice.
 
 > :apple: x :lemon: = 1.234.567
 >
 > dove :apple: e :lemon: sono numeri interi.
 
-
 Banale? 
 Per esempio :apple: = 1 e :lemon: = 1.234.567!!
 
+Allora cerchiamo di rendere la cosa più interessante.
+
 ## Il Problema
 
-Allora rendiamo il tutto più interessante aggiungendo un nuovo vincolo:
+Vediamo cosa succede se aggiungiamo un nuovo vincolo:
 
 > :apple: + :lemon: = 9.848
 >
