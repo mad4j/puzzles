@@ -24,3 +24,20 @@ Allora rendiamo il tutto più interessante aggiungendo un nuovo vincolo:
 > dove :apple: e :lemon: sono valori interi.
 
 Riuscite a trovare una soluzione?
+
+
+
+
+```c++
+#include <stdio.h>
+
+int main() {
+    int N = 1234567;
+    for (int i=2; i<=N; i++) {
+        if (N%i == 0) {
+            printf("%d ", i);
+            N /= i;
+        }
+    }
+}
+```
