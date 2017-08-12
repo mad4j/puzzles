@@ -3,19 +3,20 @@ Il 95% di voi non è capace di dare una risposta al seguente problema.
 
 Incominciamo con una cosa semplice:
 
-```
-:apple: x :lemon: = 1.234.567
-dove banana ed arancio sono numeri interi.
-```
+> :apple: x :lemon: = 1.234.567
+>
+> dove :apple: e :lemon: sono numeri interi.
 
 
+Banale? 
+Per esempio :aopple: = 1 e :lemon: = 1.234.567!!
 
-Banale? banana = 1 ed arancio = 1.234.567!!
+Allora rendiamo il tutto più interessante aggiungendo un nuovo vincolo:
 
-Allora facciamola leggeremente più difficile
+> :apple: + :lemon: = 9.848
+> :apple: * :lemon: = 1.234.567
+>
+> dove banana ed arancio sono valori interi.
 
-banana + arancio = 9.848
-banana x arancio = 1.234.567
-
-dove banana ed arancio sono valori interi.
+Riuscite a trovare una soluzione?
 
