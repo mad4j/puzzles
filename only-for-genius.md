@@ -6,7 +6,8 @@ Trovo molto spesso sul web (a dire il vero su Facebook, il più delle volte) pro
 Mi chiedevo se sarei riuscito a scrivere un piccolo problema, di facile comprensione, ma che pochi sarebbero riuciti a risolvere.
 Vediamo cosa sono riscito a fare.
 
-## Riscaldamento
+
+## Un po' di riscaldamento
 
 Incominciamo con una cosa semplice.
 
@@ -15,11 +16,14 @@ Incominciamo con una cosa semplice.
 > dove :apple: e :lemon: sono numeri interi.
 
 Banale? 
+
 Per esempio :apple: = 1 e :lemon: = 1.234.567!!
+
 
 Allora cerchiamo di rendere la cosa più interessante.
 
-## Il Problema
+
+## Affrontiamo il vero Problema
 
 Vediamo cosa succede se aggiungiamo un nuovo vincolo:
 
@@ -31,7 +35,13 @@ Vediamo cosa succede se aggiungiamo un nuovo vincolo:
 
 Riuscite a trovare una soluzione?
 
+## La soluzione
 
+Si tratta di scomporre un numero in due fattori.
+Tenendo conto dei soli numeri positivi, la soluzione al problema è la seguente:
+
+:apple: = 127
+:lemon: = 9721
 
 
 ```c++
