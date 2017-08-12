@@ -2,8 +2,8 @@
 
 *Il 95% di voi non sarà capace di dare una risposta al seguente problema.*
 
-Trovo molto spesso sul web (a dire il vero su Facebook, il più delle volte) problemi pseudo-matematici che cercano di attire click proponendo quesiti semplici o che, al più, nascondono qualche piccola ambiguità di notazione.
-Mi chiedevo se sarei riuscito a scrivere un piccolo problema, di facile comprensione, ma che pochi sarebbero riuciti a risolvere.
+Trovo molto spesso sul web (a dire il vero il più delle volte su Facebook) problemi pseudo-matematici che cercano di attirare click proponendo quesiti banali o che, al più, nascondono qualche ambiguità di notazione.
+Se invece si tentasse di proporre un piccolo problema di facile comprensione, ma che pochi fossero capaci di risolvere?
 Vediamo cosa sono riscito a fare.
 
 
