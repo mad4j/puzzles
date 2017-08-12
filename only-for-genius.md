@@ -1,5 +1,7 @@
 # Only for Genius
-Il 95% di voi non è capace di dare una risposta al seguente problema.
+Il 95% di voi non sarà capace di dare una risposta al seguente problema.
+
+## Riscaldamento
 
 Incominciamo con una cosa semplice:
 
@@ -9,14 +11,16 @@ Incominciamo con una cosa semplice:
 
 
 Banale? 
-Per esempio :aopple: = 1 e :lemon: = 1.234.567!!
+Per esempio :apple: = 1 e :lemon: = 1.234.567!!
+
+## Il Problema
 
 Allora rendiamo il tutto più interessante aggiungendo un nuovo vincolo:
 
 > :apple: + :lemon: = 9.848
+>
 > :apple: * :lemon: = 1.234.567
 >
 > dove banana ed arancio sono valori interi.
 
 Riuscite a trovare una soluzione?
-
