@@ -50,7 +50,7 @@ Tenendo conto dei soli numeri positivi, la soluzione al problema è la seguente:
 int main() {
     int N = 1234567;
     for (int i=2; i<=N; i++) {
-        if (N%i == 0) {
+        while (N%i == 0) {
             printf("%d ", i);
             N /= i;
         }
