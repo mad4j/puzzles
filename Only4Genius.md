@@ -17,7 +17,8 @@ Si tratta di scomporre un numero in due fattori.
 Tenendo conto dei soli numeri positivi, la soluzione al problema è la seguente:
 
 :apple: = 127
-:lemon: = 9721
+
+:pear: = 9721
 
 
 ```c++
