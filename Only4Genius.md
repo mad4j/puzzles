@@ -7,11 +7,13 @@ Se invece si tentasse di proporre un piccolo problema di facile comprensione, ma
 Vediamo cosa sono riscito a fare.
 
 
-## Episode 01
+## Episodio 01
+
+### Il problema
 
 ![episode01](only4genius-ep01.png)
 
-## La soluzione
+### La soluzione
 
 Si tratta di scomporre un numero in due fattori.
 Tenendo conto dei soli numeri positivi, i valori cercati sono:
