@@ -20,6 +20,7 @@ Tenendo conto dei soli numeri positivi, la soluzione al problema è la seguente:
 
 :apple: = 9721
 
+Quindi la soluzione è **9.848**.
 
 ```c++
 #include <stdio.h>
