@@ -14,13 +14,15 @@ Vediamo cosa sono riscito a fare.
 ## La soluzione
 
 Si tratta di scomporre un numero in due fattori.
-Tenendo conto dei soli numeri positivi, la soluzione al problema è la seguente:
+Tenendo conto dei soli numeri positivi, i valori cercati sono:
 
 :pear: = 127
 
 :apple: = 9721
 
 Quindi la soluzione è **9.848**.
+
+Il seguente programma è capace di scomporre il valore **N** in fattori primi:
 
 ```c++
 #include <stdio.h>
