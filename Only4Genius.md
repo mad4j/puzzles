@@ -16,9 +16,9 @@ Vediamo cosa sono riscito a fare.
 Si tratta di scomporre un numero in due fattori.
 Tenendo conto dei soli numeri positivi, la soluzione al problema è la seguente:
 
-:apple: = 127
+:pear: = 127
 
-:pear: = 9721
+:apple: = 9721
 
 
 ```c++
