@@ -7,33 +7,9 @@ Se invece si tentasse di proporre un piccolo problema di facile comprensione, ma
 Vediamo cosa sono riscito a fare.
 
 
-## Un po' di riscaldamento
+## Episode 01
 
-Incominciamo con una cosa semplice.
-
-> :apple: x :lemon: = 1.234.567
->
-> dove :apple: e :lemon: sono numeri interi.
-
-Banale? 
-
-Per esempio :apple: = 1 e :lemon: = 1.234.567!!
-
-
-Allora cerchiamo di rendere la cosa più interessante.
-
-
-## Affrontiamo il vero Problema
-
-Vediamo cosa succede se aggiungiamo un nuovo vincolo:
-
-> :apple: + :lemon: = 9.848
->
-> :apple: x :lemon: = 1.234.567
->
-> dove :apple: e :lemon: sono valori interi.
-
-Riuscite a trovare una soluzione?
+![episode01](only4genius-ep01.png)
 
 ## La soluzione
 
