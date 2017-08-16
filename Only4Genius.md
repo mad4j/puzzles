@@ -73,4 +73,4 @@ digraph G {
 }
 ```
 
-![Episodio 02 - Sequenza](resoruces/only4genius-ep02-sequence.png)
+![Episodio 02 - Sequenza](resources/only4genius-ep02-sequence.png)
