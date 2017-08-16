@@ -55,3 +55,22 @@ Infatti le cifre di un numero in sequenza sono il conteggio delle lettere che de
 Esempio: **5 0 7** (cinque zero sette) -> **6 4 5**.
 
 Da osservare che il numero tre e' l'unico punto fisso di questa trasformazione (i.e. F(3) = 3) e che tutte le cifre tenderanno a questo valore.
+
+E' possibile verificare visivamente questa proprietà inserendo in un grafo orientato tutte le transizioni possibili.
+
+```
+digraph G {
+    0 -> 4
+    1 -> 3
+    2 -> 3
+    3 -> 3
+    4 -> 7
+    5 -> 6
+    6 -> 3
+    7 -> 5
+    8 -> 4
+    9 -> 4
+}
+```
+
+![Episodio 02 - Sequenza](resoruces/only4genius-ep02-sequence.png)
