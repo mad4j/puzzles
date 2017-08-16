@@ -44,6 +44,17 @@ int main() {
 
 ### Il problema
 
+Si tratta di trovare il numero che, logicamente, sia la continuzione della sequenza.
+
 ![Episodio 02](only4genius-ep02.png)
 
 ### La soluzione
+Il numero cercato è **363**.
+
+Infatti le cifre di un numero in sequenza sono il conteggio delle lettere che descrivono la cifra corrispondente del numero che precede.
+Esempio: 507 (cinque zero sette) -> 6 4 5.
+
+Da osservare che il numero tre e' l'unico punto fisso di questa trasformazione (i.e. F(3) = 3) e che tutte le cifre tenderanno a questo valore.
+
+
+Il numero successivo sarebbe **333** e da questo la sequenza rimane fissa su questo valore.
