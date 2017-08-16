@@ -11,7 +11,7 @@ Vediamo cosa sono riscito a fare.
 
 ### Il problema
 
-![episode01](only4genius-ep01.png)
+![Episodio 01](only4genius-ep01.png)
 
 ### La soluzione
 
@@ -39,3 +39,11 @@ int main() {
     }
 }
 ```
+
+## Episodio 02
+
+### Il problema
+
+![Episodio 02](only4genius-ep02.png)
+
+### La soluzione
