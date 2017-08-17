@@ -54,6 +54,8 @@ Il numero cercato è **363**.
 Infatti le cifre di un numero in sequenza sono il conteggio delle lettere che descrivono la cifra corrispondente del numero che precede.
 Esempio: **5 0 7** (cinque zero sette) -> **6 4 5**.
 
+Ovviamente questa soluzione ha senso solo nella lingua italiana.
+
 Da osservare che il numero tre e' l'unico punto fisso di questa trasformazione (i.e. F(3) = 3) e che tutte le cifre tenderanno a questo valore.
 
 E' possibile verificare visivamente questa proprietà inserendo in un grafo orientato tutte le transizioni possibili.
