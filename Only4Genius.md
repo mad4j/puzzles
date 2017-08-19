@@ -76,3 +76,17 @@ digraph G {
 ```
 
 ![Episodio 02 - Sequenza](resources/only4genius-ep02-sequence.png)
+
+
+## Episodio 03
+
+### Il problema
+
+Si tratta di trovare il numero che non ha le stesse caretteristiche degli altri.
+
+![Episodio 03](only4genius-ep03.png)
+
+### La soluzione
+Il numero cercato è **3754**.
+
+Tutti gli altri numeri hanno 18 come somma delle loro cifre.
