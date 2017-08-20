@@ -82,7 +82,7 @@ digraph G {
 
 ### Il problema
 
-Si tratta di trovare il numero che non ha le stesse caretteristiche degli altri.
+Quale numero non ha nulla in comune con gli altri?
 
 ![Episodio 03](only4genius-ep03.png)
 
