@@ -96,9 +96,13 @@ Tutti gli altri numeri hanno 18 come somma delle loro cifre.
 ### Il problema
 
 1 + 1 = 2
+
 2 + 2 = 11
+
 11 + 11 = 22
+
 22 + 22 = 121
+
 121 + 121 = ???
 
 ### La soluzione
