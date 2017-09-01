@@ -109,3 +109,13 @@ Tutti gli altri numeri hanno 18 come somma delle loro cifre.
 
 Il numero cercato è **1012**.
 Sono delle semplici somme in base 3.
+
+## Episodio 05
+
+Trovare la lettera mancante
+F G Q R
+
+### La soluzione
+È la lettera P. MaMa solo nell'alfabeto italiano.
+
+
