@@ -97,16 +97,6 @@ Tutti gli altri numeri hanno 18 come somma delle loro cifre.
 
 ![Episodio 04](only4genius-ep04.png)
 
-1 + 1 = 2
-
-2 + 2 = 11
-
-11 + 11 = 22
-
-22 + 22 = 121
-
-121 + 121 = ???
-
 ### La soluzione
 
 Il numero cercato è **1012**.
@@ -118,7 +108,7 @@ Sono delle semplici somme in base 3.
 
 Trovare l'elemento che completa il seguente insieme di lettere:
 
-** F G Q R L J ? **
+**F G Q R L J ?**
 
 ### La soluzione
 È la lettera **P**. 
