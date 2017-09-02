@@ -106,11 +106,10 @@ Sono delle semplici somme in base 3.
 
 ### Il problema
 
-Trovare l'elemento che completa il seguente insieme di lettere:
-
-**F G Q R L J ?**
+![Episodio 05](only4genius-ep05.png)
 
 ### La soluzione
+
 È la lettera **P**. 
 
 Sono tutte le lettere dell'alfabeto che non hanno elementi di simmetria.
