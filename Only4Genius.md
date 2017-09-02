@@ -112,10 +112,15 @@ Sono delle semplici somme in base 3.
 
 ## Episodio 05
 
-Trovare la lettera mancante
-F G Q R
+### Il problema
+
+Trovare l'elemento che completa il seguente insieme di lettere:
+
+F G Q R L J
 
 ### La soluzione
-È la lettera P. MaMa solo nell'alfabeto italiano.
+È la lettera P. 
+Sono tutte le lettere dell'alfabeto che non hanno elementi di simmetria.
+
 
 
