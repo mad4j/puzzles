@@ -9,11 +9,36 @@ Vediamo cosa sono riscito a fare.
 
 ## Episodio 01
 
-### Il problema
-
 ![Episodio 01](only4genius-ep01.png)
 
-### La soluzione
+
+## Episodio 02
+
+Si tratta di trovare il numero che, logicamente, sia la continuzione della sequenza.
+
+![Episodio 02](only4genius-ep02.png)
+
+
+## Episodio 03
+
+Quale numero non ha nulla in comune con gli altri?
+
+![Episodio 03](only4genius-ep03.png)
+
+
+## Episodio 04
+
+![Episodio 04](only4genius-ep04.png)
+
+
+## Episodio 05
+
+![Episodio 05](only4genius-ep05.png)
+
+
+# Le soluzioni
+
+## Episodio 01
 
 Si tratta di scomporre un numero in due fattori.
 Tenendo conto dei soli numeri positivi, i valori cercati sono:
@@ -40,15 +65,9 @@ int main() {
 }
 ```
 
+
 ## Episodio 02
 
-### Il problema
-
-Si tratta di trovare il numero che, logicamente, sia la continuzione della sequenza.
-
-![Episodio 02](only4genius-ep02.png)
-
-### La soluzione
 Il numero cercato è **363**.
 
 Infatti le cifre di un numero in sequenza sono il conteggio delle lettere che descrivono la cifra corrispondente del numero che precede.
@@ -80,35 +99,18 @@ digraph G {
 
 ## Episodio 03
 
-### Il problema
-
-Quale numero non ha nulla in comune con gli altri?
-
-![Episodio 03](only4genius-ep03.png)
-
-### La soluzione
 Il numero cercato è **3754**.
 
 Tutti gli altri numeri hanno 18 come somma delle loro cifre.
 
+
 ## Episodio 04
-
-### Il problema
-
-![Episodio 04](only4genius-ep04.png)
-
-### La soluzione
 
 Il numero cercato è **1012**.
 Sono delle semplici somme in base 3.
 
+
 ## Episodio 05
-
-### Il problema
-
-![Episodio 05](only4genius-ep05.png)
-
-### La soluzione
 
 È la lettera **P**. 
 
