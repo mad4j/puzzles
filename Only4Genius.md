@@ -116,11 +116,13 @@ Sono delle semplici somme in base 3.
 
 Trovare l'elemento che completa il seguente insieme di lettere:
 
-F G Q R L J
+** F G Q R L J ? **
 
 ### La soluzione
-È la lettera P. 
+È la lettera **P**. 
+
 Sono tutte le lettere dell'alfabeto che non hanno elementi di simmetria.
 
+*Inserire diagramma di Venn*
 
 
