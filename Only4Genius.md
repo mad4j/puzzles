@@ -95,6 +95,8 @@ Tutti gli altri numeri hanno 18 come somma delle loro cifre.
 
 ### Il problema
 
+![Episodio 04](only4genius-ep04.png)
+
 1 + 1 = 2
 
 2 + 2 = 11
