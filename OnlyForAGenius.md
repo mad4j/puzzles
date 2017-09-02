@@ -1,10 +1,9 @@
-# Only for Genius
+# Only for a Genius
 
 *Il 95% di voi non sarà capace di dare una risposta al seguente problema.*
 
-Trovo molto spesso sul web (a dire il vero il più delle volte su Facebook) problemi pseudo-matematici che cercano di attirare click proponendo quesiti banali o che, al più, nascondono qualche ambiguità di notazione.
-Se invece si tentasse di proporre un piccolo problema di facile comprensione, ma che pochi fossero capaci di risolvere?
-Vediamo cosa sono riscito a fare.
+Trovo molto spesso sul web (a dire il vero il più delle volte su Facebook) problemi pseudo-matematici che cercano di attirare click proponendo quesiti banali o che, al più, nascondono qualche ambiguità di notazione. Un po' poco soddisfacente per chi vuole sgranchirsi un po' la mente.
+Questa pagina contiene il mio personale contributo alla matematica ricreativa. 
 
 
 ## Episodio 01
