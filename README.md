@@ -3,7 +3,6 @@ Raccolta personale di giochi ed enigmi matematici
 
 * [La Rana Affamata](Hungry-Frog.md)
 * [Il Compleanno di Cheryl](Cheryl-Birthday.md)
-* [Only 4 Genius](Only4Genius.md)
 
 ## Indovinello di Pasquetta
 
