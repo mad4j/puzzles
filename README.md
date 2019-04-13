@@ -4,6 +4,10 @@ Raccolta personale di giochi ed enigmi matematici
 * [La Rana Affamata](Hungry-Frog.md)
 * [Il Compleanno di Cheryl](Cheryl-Birthday.md)
 
+# Il Lupo, la Capra e il Cavolo
+
+![The Wolf, Goat and Cabbage](wolf-goat-cabbage.png)
+
 ## Indovinello di Pasquetta
 
 ### Il problema
