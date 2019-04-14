@@ -6,7 +6,7 @@ Un Contadino deve attraversare un Fiume portando con sè un Lupo, una Capra ed u
 
 Sulla riva del fiume è ormeggiata una barca dove, oltre al Contadino, c'è posto solo per un altro passeggero: il Lupo, la Capra o il Cavolo.
 
-Inoltre il Lupo e la Capra non possono rimanere soli sulla stessa riva, altrimenti il Lupo si mangerà la Capra.
+Inoltre il Lupo e la Capra non possono rimanere soli sulla stessa riva altrimenti il Lupo si mangerà la Capra.
 
 Per lo stesso motivo non possono rimarene soli la Capra e il Cavolo.
 
